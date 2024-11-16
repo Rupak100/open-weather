@@ -15,3 +15,5 @@ async function fetchWeatherData(latitude, longitude) {
     console.error("Error fetching weather data:");
   }
 }
+
+fetchWeatherData(24, 32);
